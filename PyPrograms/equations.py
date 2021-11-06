@@ -1,3 +1,14 @@
+###
+#####
+####### by @JymPatel
+#####
+###
+
+###
+##### edited by ... (editors can put their name and thanks for suggestion) :)
+###
+
+
 # what we are going to do
 print("We can solve the below equations")
 print("1  Quadratic Equation")
