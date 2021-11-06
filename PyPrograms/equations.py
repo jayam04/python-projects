@@ -45,4 +45,4 @@ else:
 
 
 # end of code
-print("You can visit https://github.com/xyz72C9/equations.py")
+print("You can visit https://github.com/JymPatel/Python3-FirstEdition")
