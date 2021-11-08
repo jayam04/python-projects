@@ -1,12 +1,8 @@
-###
-#####
-####### by @JymPatel
-#####
-###
+# by @JymPatel
 
-###
-##### edited by ... (editors can put their name and thanks for suggestion) :)
-###
+
+# edited by ... (editors can put their name and thanks for suggestion) :)
+# @bupboi1337
 
 
 # what we are going to do
@@ -14,10 +10,10 @@ print("We can solve the below equations")
 print("1  Quadratic Equation")
 
 # ask what they want to solve
-sinput = input("What you would like to solve?")
+sin = input("What you would like to solve?")
 
 # for Qdc Eqn
-if sinput == '1':
+if sin == '1':
     print("We will solve for equation 'a(x^2) + b(x) + c'")
 
     # value of a
@@ -39,8 +35,7 @@ if sinput == '1':
 
 else: 
     print("You have selected wrong option.")
-    print("Select integer for your equation and run this code again")
-
+    print("Select a integer for your equation and run this code again")
 
 
 
