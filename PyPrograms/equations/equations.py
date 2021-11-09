@@ -49,14 +49,15 @@ if sin == '2' :
     if (a1/a2) == (b1/b2) :
         if (a1/a2) == (c1/c2) :
             print("Infinite set of values satisfies your equation.")
-        if (a1/a2) =! (c1/c2) :
+        if (a1/a2) != (c1/c2) :
             print("No values of variables satisfies your equation.")
     
     else :
         x = (b2*c1 - b1*c2)/(a2*b1 - a1*b2)
         y = (a2*c1 - a1*c2)/(b2*a1 - b1*a2)
         
-        print("(", x, ",", y ")", 'is solution for your equation)
+        print("(", x, ",", y, ")", 'is solution for your equation')
+
 
 
 else: 
