@@ -1,5 +1,5 @@
 ## Equations
-A python program Orgiginally created by @JymPatel and edited by:
+A python program Originally created by @JymPatel and edited by:
 
 @bupboi1337
 
