@@ -31,6 +31,33 @@ if sin == '1':
         x2 = (-b - D)/(2*a)
 
         print("Roots for your equation are" , x1, "&", x2)
+        
+
+        
+# for Lnr Eqn (2 var)        
+if sin == '2' :
+    print("We will solve for equations a1(x) + b1(y) + c1 & a2(x) + b2(y) + c2")
+    
+    a1 = int(input("Put value of a1"))
+    b1 = int(input("Put value of b1"))
+    c1 = int(input("Put value of c1"))
+    a2 = int(input("Put value of a2"))
+    b2 = int(input("Put value of b2"))
+    c2 = int(input("Put value of c2"))
+    
+    # for infinite or no solution
+    if (a1/a2) == (b1/b2) :
+        if (a1/a2) == (c1/c2) :
+            print("Infinite set of values satisfies your equation.")
+        if (a1/a2) != (c1/c2) :
+            print("No values of variables satisfies your equation.")
+    
+    else :
+        x = (b2*c1 - b1*c2)/(a2*b1 - a1*b2)
+        y = (a2*c1 - a1*c2)/(b2*a1 - b1*a2)
+        
+        print("(", x, ",", y, ")", 'is solution for your equation')
+
 
 
 else: 
