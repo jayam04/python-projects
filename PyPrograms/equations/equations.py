@@ -16,7 +16,7 @@ sin = input("What you would like to solve?")
 if sin == '1':
     print("We will solve for equation 'a(x^2) + b(x) + c'")
 
-    # value of a
+    # take some user input
     a = int(input("What is value of a?"))
     b = int(input("What is value of b?"))
     c = int(input("What is value of c?"))
@@ -30,7 +30,7 @@ if sin == '1':
         x1 = (-b + D)/(2*a)
         x2 = (-b - D)/(2*a)
 
-        print("Roots for your equation are" , x1, "&", x2)
+        print("Roots for your equation are" , x1, "&", x2) # output root numbers for equation
         
 
         
@@ -38,6 +38,7 @@ if sin == '1':
 if sin == '2' :
     print("We will solve for equations a1(x) + b1(y) + c1 & a2(x) + b2(y) + c2")
     
+    # take some more user input
     a1 = int(input("Put value of a1"))
     b1 = int(input("Put value of b1"))
     c1 = int(input("Put value of c1"))
@@ -56,15 +57,15 @@ if sin == '2' :
         x = (b2*c1 - b1*c2)/(a2*b1 - a1*b2)
         y = (a2*c1 - a1*c2)/(b2*a1 - b1*a2)
         
-        print("(", x, ",", y, ")", 'is solution for your equation')
+        print("(", x, ",", y, ")", 'is solution for your equation') # print soulution
 
 
 
-else: 
+else: # error message
     print("You have selected wrong option.")
     print("Select a integer for your equation and run this code again")
 
 
 
-# end of code
+# end of code and link to this repo
 print("You can visit https://github.com/JymPatel/Python3-FirstEdition")

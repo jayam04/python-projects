@@ -1,5 +1,7 @@
 # Raspberry Pi Detector
 # By @bupboi1337
+# editor names go here:
+#
 
 import os
 hostname = "raspberrypi.local" # Raspberry Pi Local Hostname
