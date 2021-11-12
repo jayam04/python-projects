@@ -4,4 +4,4 @@ Originally by @JymPatel
 
 # All Programs Here
 equations.py to solve many equations  
-raspberry-pi-detector.py to detect any rapberry pi in your network
+raspberry-pi-detector.py to detect any rapberry pi in your local network
