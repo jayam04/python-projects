@@ -1,5 +1,5 @@
 # by @JymPatel
-
+# Note: This program is licenced under GPL V3.
 
 # edited by ... (editors can put their name and thanks for suggestion) :)
 # @bupboi1337
