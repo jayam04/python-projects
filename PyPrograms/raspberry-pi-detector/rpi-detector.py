@@ -5,11 +5,11 @@
 #
 
 import os
-hostname = "raspberrypi.local" # Raspberry Pi Local Hostname
-response = os.system("ping -c 1 " + hostname) # Ping raspberrypi.local
+a = "raspberrypi.local" # name of the Raspberry Pi Local Hostname
+b = os.system("ping -c 1 " + a) # Ping raspberrypi.local
 
 # check the response
-if response == 0: # If the ping went through correctly
-  print hostname, 'detected! There is a Raspberry Pi on your Network!'
-else: # If the ping was unsuccessful
-  print hostname, 'not found! There is probably not a Raspberry Pi on your network.'
+if b == 0: # If the ping succedded
+  print a, 'was pinged successfuly! There is a Raspberry Pi on your Network!'
+else: # If the ping failed
+  print a, 'was unable to be pinged! There is probably not a Raspberry Pi on your network.'
