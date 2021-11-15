@@ -1,5 +1,6 @@
 # Raspberry Pi Detector
 # By @bupboi1337
+# Note: This program is licenced under GPL V3.
 # editor names go here:
 #
 
