@@ -17,9 +17,9 @@ if sin == '1':
     print("We will solve for equation 'a(x^2) + b(x) + c'")
 
     # take some user input
-    a = int(input("What is value of a?"))
-    b = int(input("What is value of b?"))
-    c = int(input("What is value of c?"))
+    a = float(input("What is value of a?"))
+    b = float(input("What is value of b?"))
+    c = float(input("What is value of c?"))
 
     D = b**2 - 4*a*c
 
@@ -39,12 +39,12 @@ if sin == '2' :
     print("We will solve for equations a1(x) + b1(y) + c1 & a2(x) + b2(y) + c2")
     
     # take some more user input
-    a1 = int(input("Put value of a1"))
-    b1 = int(input("Put value of b1"))
-    c1 = int(input("Put value of c1"))
-    a2 = int(input("Put value of a2"))
-    b2 = int(input("Put value of b2"))
-    c2 = int(input("Put value of c2"))
+    a1 = float(input("Put value of a1"))
+    b1 = float(input("Put value of b1"))
+    c1 = float(input("Put value of c1"))
+    a2 = float(input("Put value of a2"))
+    b2 = float(input("Put value of b2"))
+    c2 = float(input("Put value of c2"))
     
     # for infinite or no solution
     if (a1/a2) == (b1/b2) :
