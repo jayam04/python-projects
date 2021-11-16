@@ -1,4 +1,5 @@
 ## Equations
+Note: This program is licenced under GPL V3.  
 A python program Originally created by @JymPatel and edited by:
 
 @bupboi1337
