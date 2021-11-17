@@ -1,4 +1,6 @@
 
+
+# it uses GPL V3 LICENSE
 # what we are going to do
 print("We can find areas of different shapes from below")
 
