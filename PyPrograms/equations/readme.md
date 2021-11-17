@@ -1,14 +1,12 @@
-## Equations
-Note: This program is licenced under GPL V3.  
-A python program Originally created by @JymPatel and edited by:
+### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
+# areas
+areas is a program you can use to find areas of different shapes.
 
-@bupboi1337
+### How to run?
+Run as a python program
 
-## What does it do?
+### Requirements
+A python compiler in Windows, you can use terminal in Mac & Linux
 
-well... equations I think?
-
-## How to install
-
-run it with python
-done!
+##### created by @JymPatel
+##### edited by @bupboi1337
