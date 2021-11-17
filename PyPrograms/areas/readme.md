@@ -1,6 +1,6 @@
 #### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
-# equations
-equations.py is a python program you can use to find roots of different equations.
+# areas
+areas is a program you can use to find areas of different shapes.
 
 ### How to run?
 Run as a python program
@@ -9,4 +9,4 @@ Run as a python program
 A python compiler in Windows, you can use terminal in Mac & Linux
 
 ##### created by @JymPatel
-##### edited by @bupboi1337
+##### edited by 
