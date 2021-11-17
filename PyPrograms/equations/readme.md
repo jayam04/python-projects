@@ -1,11 +1,11 @@
-### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
+#### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
 # equations
 equations.py is a python program you can use to find roots of different equations.
 
-### How to run?
+#### How to run?
 Run as a python program
 
-### Requirements
+#### Requirements
 A python compiler in Windows, you can use terminal in Mac & Linux
 
 ##### created by @JymPatel
