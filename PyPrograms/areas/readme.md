@@ -1,5 +1,11 @@
 ### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
+# areas
+##### created by @JymPatel
+##### edited by 
+areas is a program you can use to find areas of different shapes.
 
+### How to run?
+Run as a python program
 
-
-#### preparing...
+### Requirements
+A python compiler in Windows, you can use terminal in Mac & Linux
