@@ -1,4 +1,4 @@
-#### Note areas.py uses GPL V3 [LICENSE](../../LICENSE)
+#### NOTE THIS PROGRAM USES GPL V3 [LICENSE](../../LICENSE)
 
 
 
