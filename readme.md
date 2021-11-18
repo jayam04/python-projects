@@ -10,6 +10,6 @@ Please read LICENCE to see the licence.
 added the new program areas.py
 
 ## Program List
-areas.py to get areas of shapes
+areas.py to get areas of shapes  
 equations.py to solve many equations  
 raspberry-pi-detector.py to detect if there is a rapberry pi on your local network
