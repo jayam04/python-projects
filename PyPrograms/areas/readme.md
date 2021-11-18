@@ -6,7 +6,7 @@ areas is a program you can use to find areas of different shapes.
 Run as a python program
 
 ### Requirements
-A python compiler in Windows, you can use terminal in Mac & Linux
+A python interpreter in Windows, you can use terminal in Mac & Linux
 
 ##### created by @JymPatel
 ##### edited by 
