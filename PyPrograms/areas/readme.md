@@ -10,3 +10,5 @@ A python interpreter in Windows, you can use terminal in Mac & Linux
 
 ##### created by @JymPatel
 ##### edited by 
+
+#### Triangle is coming soon, and more to add. WIP :)
