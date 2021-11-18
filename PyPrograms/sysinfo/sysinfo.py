@@ -1,3 +1,7 @@
+# System Informaiton
+# By @bupboi1337
+# This uses the GPL V3 licence btw
+
 import platform
 
 print("="*40, "System Information by @bupboi1337", "="*40)
