@@ -7,7 +7,7 @@ This is licenced under the Gnu Public Licence Version 3.
 Please read LICENCE to see the licence.
 
 ## Latest Changes
-added the new program areas.py
+added the new program sysinfo.py
 
 ## Program List
 areas.py to get areas of shapes  
