@@ -1,6 +1,7 @@
+#### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
+
 ## System Informaiton
-By @bupboi1337  
-This uses the GPL V3 licence btw  
+By @bupboi1337
 
 ### What does it do?
 It tells you informaiton about your system.
