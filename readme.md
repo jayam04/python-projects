@@ -3,7 +3,7 @@ a bunch of python programs and stuff
 
 ## Super Important Notice
 THIS IS LICENSED UNDER [GNU PUBLIC LICENSE V3](LICENSE)  
-also, refer to terms before [CONTRIBUTING](docs/CONTRIBUTING.md)
+also, refer to [Contributing Rules](docs/CONTRIBUTING.md) before CONTRIBUTING
 
 ## Latest Changes
 added the new program [sysinfo.py](PyPrograms/sysinfo)
