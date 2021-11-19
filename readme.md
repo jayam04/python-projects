@@ -2,8 +2,8 @@
 a bunch of python programs and stuff  
 
 ## Super Important Notice
-THIS IS LICENSED UNDER [GNU PUBLIC LICENSE V3](LICENSE)
-also, refer to terms before [CONTRIBUTING](docs/)
+THIS IS LICENSED UNDER [GNU PUBLIC LICENSE V3](LICENSE)  
+also, refer to terms before [CONTRIBUTING](docs/CONTRIBUTING.md)
 
 ## Latest Changes
 added the new program [sysinfo.py](PyPrograms/sysinfo)
