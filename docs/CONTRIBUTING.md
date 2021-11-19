@@ -1,5 +1,5 @@
 # Contributing Rules
-Before contributing make sure to make your own fork.
+Before contributing make sure to make your own fork.  
 Rule 1: Make sure your code is in its own folder. (eg: /Python3-FirstEditon/PyPrograms/ _put your program's folder here_ )  
 Rule 2: There are **NO** spaces allowed in **ANY** filename or folder name. (Basically don't do this with your filenames: what the dog doin.py)  
 Rule 3: Make sure you add a [readme.md](../readme.md) file describing your code.  
