@@ -2,7 +2,7 @@
 
 ## areas
 it can find areas of many shapes.  
-now supporting, **square**.
+now supporting, **square**.  
 **triangles** coming soon
 
 #### Requirenments
