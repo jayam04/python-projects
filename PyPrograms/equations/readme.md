@@ -1,12 +1,12 @@
 #### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
-# equations
-equations.py is a python program you can use to find roots of different equations.
 
-### How to run?
-Run as a python program
+## mathhere
 
-### Requirements
-A python compiler in Windows, you can use terminal in Mac & Linux
+#### Requirenments
 
-##### created by @JymPatel
-##### edited by @bupboi1337
+#### How to run?
+
+#### Contributers
+created by [**@JymPatel**](https://github.com/JymPatel)  
+edited by   [**@bupboi1337**]()
+
