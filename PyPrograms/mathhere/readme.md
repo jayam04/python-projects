@@ -6,6 +6,6 @@
 
 #### How to run?
 
-##### Contributers
-created by [**@JymPatel**]()  
+#### Contributers
+created by [**@JymPatel**](https://github.com/JymPatel)  
 edited by 
