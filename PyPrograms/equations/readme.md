@@ -1,7 +1,7 @@
 #### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
 
 ## mathhere
-it can find solution for many equations.
+it can find solution for many equations.  
 now supporting, **quadratic eqn** & **linear eqns in 2 variables**.
 
 #### Requirenments
