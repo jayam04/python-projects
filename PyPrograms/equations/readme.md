@@ -7,6 +7,8 @@
 #### How to run?
 
 #### Contributers
-created by [**@JymPatel**](https://github.com/JymPatel)  
-edited by   [**@bupboi1337**]()
+created by  
+[**@JymPatel**](https://github.com/JymPatel)  
+edited by  
+[**@bupboi1337**]()
 
