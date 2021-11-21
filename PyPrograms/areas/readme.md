@@ -1,14 +1,16 @@
 #### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
-# areas
-areas is a program you can use to find areas of different shapes.
 
-### How to run?
-Run as a python program
+## areas
+it can find areas of many shapes.  
+now supporting, **square**.
+**triangles** coming soon
 
-### Requirements
-A python interpreter in Windows, you can use terminal in Mac & Linux
+#### Requirenments
+a python interpretor in Windows, terminal will work in Mac & Linux.
 
-##### created by @JymPatel
-##### edited by 
+#### How to run?
+as a **python3** program
 
-#### Triangle is coming soon, and more to add. WIP :)
+#### Contributers
+created by  
+[**@JymPatel**](https://github.com/JymPatel)  
