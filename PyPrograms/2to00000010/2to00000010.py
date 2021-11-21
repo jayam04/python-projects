@@ -2,7 +2,7 @@
 # code by @JymPatel
 
 
-binary = '$' # just stat var
+binary = '$' # just starting var
 n = 15 # can get 2**16 numbers
 
 # get integer as output which is less than limit 2**16
