@@ -6,7 +6,7 @@ THIS IS LICENSED UNDER [**GNU PUBLIC LICENSE V3**](LICENSE)
 also, refer to [Contributing Rules](docs/CONTRIBUTING.md) before **CONTRIBUTING**  
 
 ## Latest Changes
-changed the templates
+changed some text in Areas and added some text in Raspberry Pi Detector
 
 ## Program List
 [**areas.py**](PyPrograms/areas) to get areas of shapes  
