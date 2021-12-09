@@ -5,8 +5,11 @@
 #
 
 import os
+print("Raspberry Pi Detector")
+print("This uses the GPL V3 Licence. Read the file LICENCE to see it.")
 a = "raspberrypi.local" # name of the Raspberry Pi Local Hostname
 b = os.system("ping -c 1 " + a) # Ping raspberrypi.local
+print("Pinging local Raspberry Pi IP Address...")
 
 # check the response
 if b == 0: # If the ping succedded
