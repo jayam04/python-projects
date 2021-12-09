@@ -22,4 +22,4 @@ elif sipt == "2" :
     print("Area of square is", area)
 
 else :
-    print("You have selected wrong option. Please select from integer that has some shape associated with it")
+    print("You have selected wrong option. Please select from a integer that has a shape associated with it")
