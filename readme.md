@@ -6,7 +6,7 @@ THIS IS LICENSED UNDER [**GNU PUBLIC LICENSE V3**](LICENSE)
 also, refer to [Contributing Rules](docs/CONTRIBUTING.md) before **CONTRIBUTING**  
 
 ## Latest Changes
-changed some text in Areas and added some text in Raspberry Pi Detector
+changed some text in Areas, added some text in Raspberry Pi Detector, and added a new program called Box.
 
 ## Program List
 [**areas.py**](PyPrograms/areas) to get areas of shapes  
