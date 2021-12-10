@@ -13,7 +13,7 @@ changed some text in Areas, changed the wiki, changed the list of programs in th
 [**equations.py**](PyPrograms/equations) to solve many equations  
 [**rpi-detector.py**](PyPrograms/raspberry-pi-detector) to detect if there is a rapberry pi on your local network  
 [**sysinfo**](PyPrograms/sysinfo) to get info about your system  
-[**2to00000010**](PyPrograms/2to00000010) to do something? (@JymPatel pls add details)  
+[**2to00000010**](PyPrograms/2to00000010) to convert a decimal number to binary
 [**box**](PyPrograms/box) to show you a demo of a Extended Ascii Art Box  
 
 
