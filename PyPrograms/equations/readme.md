@@ -14,5 +14,5 @@ run as **python3** program
 created by  
 [**@JymPatel**](https://github.com/JymPatel)  
 edited by  
-[**@bupboi1337**]()
+[**@bupboi1337**](https://github.com/bupboi1337)
 
