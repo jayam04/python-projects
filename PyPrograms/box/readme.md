@@ -8,6 +8,6 @@ It does nothing...
 100% Worthless!  
 
 ### Credits  
-@bupboi1337 - creator  
+[**@bupboi1337**](https://github.com/bupboi1337) - creator  
 Editors can put thier name below here:  
 
