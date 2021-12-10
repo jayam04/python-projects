@@ -6,7 +6,7 @@ THIS IS LICENSED UNDER [**GNU PUBLIC LICENSE V3**](LICENSE)
 also, refer to [Contributing Rules](docs/CONTRIBUTING.md) before **CONTRIBUTING**  
 
 ## Latest Changes
-changed some text in Areas and Equations, changed the wiki, changed the list of programs in this readme, added some text in Raspberry Pi Detector, changed the Contributing Guidelines, and added a new program called Box.
+changed some text in Areas and Equations, changed the wiki, changed the list of programs in this readme, added some comments and changed some text in Raspberry Pi Detector, changed the Contributing Guidelines, and added a new program called Box.
 
 ## Program List
 [**areas.py**](PyPrograms/areas) to get areas of shapes  
