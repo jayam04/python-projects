@@ -6,7 +6,7 @@ THIS IS LICENSED UNDER [**GNU PUBLIC LICENSE V3**](LICENSE)
 also, refer to [Contributing Rules](docs/CONTRIBUTING.md) before **CONTRIBUTING**  
 
 ## Latest Changes
-Delete 2 templates
+Change a small amount of text in the contribution guidelines  
 
 ## Program List
 [**areas.py**](PyPrograms/areas) to get areas of shapes  

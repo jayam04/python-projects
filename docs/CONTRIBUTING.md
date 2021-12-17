@@ -2,7 +2,7 @@
 We are very happy to see you contributing in our repository but please make sure to follow rules to make sure it's easy to browse and contribute in code by others.  
 Before contributing make sure to make your own fork (or branch) so you can test in your own sandbox.  
   
-**YOUR CODE STYLE** (@bupboi1337 rename to better name)  
+**WHAT YOUR CODE SHOULD LOOK LIKE**  
 Rule *1*: Make sure **ALL** your code is in its *own folder*. (eg: /Python3-FirstEditon/PyPrograms/ _put your program's folder here_ )  
 Rule *2*: There are ***NO** spaces allowed in **ANY** filename or folder name*. (Basically don't do this with your filenames: what the dog doin.py but instead do this: what-the-dog-doin.py or this: whatthedogdoin.py)  
 Rule *3*: Make sure you add a **readme.md** file describing your code.  
