@@ -12,6 +12,6 @@ as a python program
 
 #### Contributors
 created by
-[**@JymPatel**](https://github.com/JymPatel)
-editors
-(editors can put their name here)
+[**@JymPatel**](https://github.com/JymPatel)  
+editors  
+(editors can put their name here)  
