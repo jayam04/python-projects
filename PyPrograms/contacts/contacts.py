@@ -48,7 +48,7 @@ while loopvar < 1:
         inpt = input("y/n? ")
         if inpt == 'y' or inpt == 'Y':
             loopvar += 1
-            print("get it at ")
+            print("get it at https://github.com/JymPatel/Python-FirstEdition")
         
     else:
         print("enter value from any one option")
