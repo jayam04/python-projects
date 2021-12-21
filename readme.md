@@ -7,6 +7,7 @@ also, refer to [Contributing Rules](docs/CONTRIBUTING.md) before **CONTRIBUTING*
 
 ## Latest Changes
 Change a small amount of text in the contribution guidelines  
+created new program [**contacts**](PyPrograms/contacts)  
 
 ## Program List
 [**areas.py**](PyPrograms/areas) to get areas of shapes  
