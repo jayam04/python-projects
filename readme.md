@@ -1,4 +1,4 @@
-# Python3-FirstEdition
+# Python-FirstEdition
 a bunch of python programs and stuff  
 
 ## Super Important Notice
