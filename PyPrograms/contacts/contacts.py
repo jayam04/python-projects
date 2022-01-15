@@ -39,12 +39,17 @@ while loopvar < 1:
         
     # if option 2 is selected
     elif a == 2:
+        print("")
+        print("== YOUR CONTACT LIST ==")
+        print("")
         i1 = 0
         i2 = len(fname)
         # print all names
         while i1 < i2:
             print(fname[i1], lname[i1], number[i1], email[i1])
             i1 += 1
+        print("")
+        print("=======================")
         
     # if option 0 is selected
     elif a == 0:
