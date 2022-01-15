@@ -1,9 +1,7 @@
 #### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
 
 ## areas
-it can find areas of many shapes.  
-now supporting, **square**.  
-**triangles** coming soon
+it can find area of **square**  
 
 #### Requirenments
 a python interpretor in Windows, terminal will work in Mac & Linux.
