@@ -13,6 +13,11 @@ print("2  Linear Equations with two Variables")
 # ask what they want to solve
 sin = input("What you would like to solve?")
 
+try:
+    sin = int(sin)
+except ValueError:
+    print("Please enter a valid INTEGER")
+
 # for Qdc Eqn
 if sin == '1':
     print("We will solve for equation 'a(x^2) + b(x) + c'")
