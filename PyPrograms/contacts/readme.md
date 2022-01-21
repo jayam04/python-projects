@@ -2,16 +2,16 @@
 
 ## contacts
 it's an simple phonebook allowing you to add name, contact number and email.  
-it's just for fun there is no use in real life.  
+it's just for fun there is no use in real life.    
 
-#### Requienments
-python3 interpretor
+#### Requirenments
+a python interpretor in Windows, terminal will work in Mac & Linux.  
 
-#### How to run
-as a python program
+#### How to run?
+as a **python3** program  
 
-#### Contributors
-created by
+#### Contributers
+created by  
 [**@JymPatel**](https://github.com/JymPatel)  
-editors  
-(editors can put their name here)  
+edited by  
+(editors can put their names here)

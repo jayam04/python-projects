@@ -8,6 +8,7 @@
 # what we are going to do
 print("We can solve the below equations")
 print("1  Quadratic Equation")
+print("2  Linear Equations with two Variables")
 
 # ask what they want to solve
 sin = input("What you would like to solve?")
