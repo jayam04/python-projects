@@ -42,6 +42,10 @@ if (usrinput == "1"):
 	
 # for linear equations with two variables
 
+# if wrong option is selected
+else:
+	print("please enter a valid integer from tasks.")
+
 # end of code
 print("")
 print("get this code at https://github.com/JymPatel/Python-FirstEdition")
