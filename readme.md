@@ -2,12 +2,12 @@
 a bunch of python programs and stuff  
 
 ## Super Important Notice
-THIS IS LICENSED UNDER [**GNU PUBLIC LICENSE V3**](LICENSE)  
-also, refer to [Contributing Rules](docs/CONTRIBUTING.md) before **CONTRIBUTING**  
+EVERYTHING IN THIS REPOSITORY IS LICENSED UNDER [**GNU PUBLIC LICENSE V3**](LICENSE)  
+also, refer to the [Contributing Rules](docs/CONTRIBUTING.md) before **CONTRIBUTING**  
 
 ## Latest Changes
-Change a small amount of text in the contribution guidelines  
-created new program [**contacts**](PyPrograms/contacts)  
+Remade Equations from scratch  
+Changed some text in the Readme
 
 ## Program List
 [**areas.py**](PyPrograms/areas) to get areas of shapes  
