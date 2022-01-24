@@ -7,7 +7,7 @@ also, refer to the [Contributing Rules](docs/CONTRIBUTING.md) before **CONTRIBUT
 
 ## Latest Changes
 Remade Equations from scratch  
-Changed some text in the Readme
+Changed some text in the Readme and the Contributing guidelines
 
 ## Program List
 [**areas.py**](PyPrograms/areas) to get areas of shapes  
