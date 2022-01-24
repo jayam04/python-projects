@@ -2,8 +2,8 @@
 a bunch of python programs and stuff  
 
 ## Super Important Notice
-EVERYTHING IN THIS REPOSITORY IS LICENSED UNDER THE [**GNU PUBLIC LICENSE V3**](LICENSE)  
-also, refer to the [Contributing Rules](docs/CONTRIBUTING.md) before **CONTRIBUTING**  
+EVERYTHING IN THIS REPOSITORY IS LICENSED UNDER THE [**GNU GENERAL PUBLIC LICENSE V3**](LICENSE)  
+also, refer to the [Contributing Rules](docs/CONTRIBUTING.md) before Contributing.  
 
 ## Latest Changes
 Remade Equations from scratch  
