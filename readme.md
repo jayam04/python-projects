@@ -10,6 +10,8 @@ Remade Equations from scratch
 Changed some text in the Readme and the Contributing guidelines
 
 ## Program List
+[**tklinter**](PyPrograms/tklinter) #TODO @bupboi1337
+[**contacts.py**](PyPrograms/contacts) a simple contact book
 [**areas.py**](PyPrograms/areas) to get areas of shapes  
 [**equations.py**](PyPrograms/equations) to solve many equations  
 [**rpi-detector.py**](PyPrograms/raspberry-pi-detector) to detect if there is a rapberry pi on your local network  
