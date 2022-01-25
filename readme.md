@@ -11,7 +11,8 @@ Changed some stuff in the program Contacts
 Changed some text in the Readme and the Contributing guidelines
 
 ## Program List
-[**tkinter**](PyPrograms/tkinter) #TODO @bupboi1337  
+[**box (TKinter)**](PyPrograms/tkinter/box) A program that makes a window with TKinter  
+[**helloworld (TKinter)**](PyPrograms/tkinter/helloworld) A program that has the text Hello World inside of a window with TKinter  
 [**contacts.py**](PyPrograms/contacts) a simple contact book  
 [**areas.py**](PyPrograms/areas) to get areas of shapes  
 [**equations.py**](PyPrograms/equations) to solve many equations  
