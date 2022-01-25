@@ -7,6 +7,7 @@ also, refer to the [Contributing Rules](docs/CONTRIBUTING.md) before Contributin
 
 ## Latest Changes
 Remade Equations from scratch  
+Changed some stuff in the program Contacts  
 Changed some text in the Readme and the Contributing guidelines
 
 ## Program List
