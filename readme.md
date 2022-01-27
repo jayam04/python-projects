@@ -17,10 +17,10 @@ Removed some stuff in Sysinfo
 [**contacts.py**](PyPrograms/contacts) a simple contact book  
 [**areas.py**](PyPrograms/areas) to get areas of shapes  
 [**equations.py**](PyPrograms/equations) to solve many equations  
-[**rpi-detector.py**](PyPrograms/raspberry-pi-detector) to detect if there is a rapberry pi on your local network  
+[**rpi-detector.py**](PyPrograms/raspberry-pi-detector) to detect if there is a rapberry pi on your network  
 [**sysinfo**](PyPrograms/sysinfo) to get info about your system  
 [**2to00000010**](PyPrograms/2to00000010) to convert a decimal number to binary  
-[**box**](PyPrograms/box) to show you a demo of a Extended Ascii Art Box  
+[**box**](PyPrograms/box) to show you a Box using Extended Ascii  
 
 
 ##### get more information at our [wiki](https://github.com/JymPatel/Python3-FirstEdition/wiki)
