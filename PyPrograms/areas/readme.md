@@ -4,13 +4,13 @@
 it can find area of **square**  
 
 #### Requirenments
-a python interpretor in Windows, terminal will work in Mac & Linux.
+a python interpretor.  
 
 #### How to run?
-as a **python3** program
+Run it as a Python 3 Program in your interpreter of choice.  
 
 #### Contributers
 created by  
 [**@JymPatel**](https://github.com/JymPatel)  
 edited by  
-(editors can put their names here)
+(editors can put their names here)  
