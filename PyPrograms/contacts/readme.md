@@ -3,8 +3,7 @@
 ## contacts
 it's an simple phonebook allowing you to add name, contact number and email.  
 it's just for fun there is no use in real life.    
-update-22.02.28 adds pickle to store your data.  
-your contact data is stored under data folder. so, you are in control of your data.  
+update-22.02.28 adds pickle to store your data in [data](data/) folder. so, you are in control of your data.  
 
 #### Requirenments
 a python interpretor in Windows, terminal will work in Mac & Linux.  
@@ -17,4 +16,4 @@ as a **python3** program
 created by  
 [**@JymPatel**](https://github.com/JymPatel)  
 edited by  
-[**@bupboi1337**](https://github.com/bupboi1337) pikle idea to store data
+[**@bupboi1337**](https://github.com/bupboi1337) pickle idea to store data
