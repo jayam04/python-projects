@@ -6,8 +6,9 @@ it's just for fun there is no use in real life.
 update-22.02.28 adds pickle to store your data.  
 your contact data is stored under data folder. so, you are in control of your data.  
 
-#### [Requirenments](docs/requirements.txt)
+#### Requirenments
 a python interpretor in Windows, terminal will work in Mac & Linux.  
+pickle library, more info in [requirements.txt](docs/requirements.txt)
 
 #### How to run?
 as a **python3** program  
