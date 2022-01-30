@@ -1,1 +1,6 @@
+REQUIREMENTS
+-----------------------------
 
+1.  python interpretor in Windows, terminal will work in Mac & Linux
+2.  pickle library
+3.  you must download whole contacts folder & make sure not to change any file, folder or their name
