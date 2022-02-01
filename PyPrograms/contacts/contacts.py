@@ -1,18 +1,22 @@
 # code by @JymPatel
-# edited by (editors can put their name here && thanks for contribution :)
+# edited by @bupboi1337, (editors can put their name here && thanks for contribution :)
 
 # this code uses GPL V3 LICENSE
 print("this code uses GPL V3 LICENSE")
 print("")
 
 # start of code
-# defining array
-fname = ["Jym"]
-lname = ["Patel"]
-number = [""]
-email = ["jympatel@yahoo.com"]
+# import library
+import pickle
 
-print("CLOSING PROGRAM WILL RESET ALL CHANGES MADE IN YOUR CONTACT LIST\n##")
+# get array from pickle data
+infile = open('data/pickle-main', 'rb')
+# defining array
+# array[0] for first name, array[1] for last name, and so on..
+array = pickle.load(infile)
+infile.close()
+
+print("update-22.02 ADDS SAVING YOUR DATA WHEN CLOSED BY OPTION 0\n##")
 
 
 # making loop to run
@@ -20,14 +24,13 @@ loopvar = 0
 while loopvar < 1:
 
     # ask user what to do
-    print("") # putting blank line before running new loop
-    print("WHAT WOULD YOU LIKE TO DO?")
+    print("")  # putting blank line before running new loop
     print("0.  exit program")
-    print("1.  add new contact")
-    print("2.  get all contacts")
+    print("1.  get all contacts")
+    print("2.  add new contact")
     print("3.  sort contacts by first name")
 
-    a = input("")
+    a = input("WHAT WOULD YOU LIKE TO DO?  ")
 
     # check for integer
     try:
@@ -35,49 +38,39 @@ while loopvar < 1:
     except ValueError:
         print("!! PLEASE ENTER AN INTEGRAL VALUE")
 
-    # option 1 is selected
+    # if option 1 is selected
     if a == 1:
-        # get a new contact
-        fname.append(input("First Name: "))
-        lname.append(input("Last Name: "))
-        number.append(input("Phone Number: "))
-        email.append(input("email: "))
-
-    # if option 2 is selected
-    elif a == 2:
         print("")
         print("== YOUR CONTACT LIST ==")
         print("")
         i1 = 0
-        i2 = len(fname)
+        arraylen = len(array[0])
         # print all names
-        while i1 < i2:
-            print(fname[i1], lname[i1], number[i1], email[i1])
+        while i1 < arraylen:
+            print(f"{array[0][i1]} {array[1][i1]},  {array[2][i1]}  {array[3][i1]}")
             i1 += 1
         print("=======================")
 
+    # option 2 is selected
+    elif a == 2:
+        # get a new contact
+        array[0].append(input("First Name: "))
+        array[1].append(input("Last Name: "))
+        array[2].append(input("Phone Number: "))
+        array[3].append(input("email ID: "))
+
+
     # if option 3 is selected
     elif a == 3:
-        for i in range(len(fname) - 1):
-            if (fname[i] > fname[i - 1]):
-                # interchange names
-                tmpfnme = fname[i]
-                tmplnme = lname[i]
-                tmpmail = email[i]
-                tmpcont = number[i]
-                fname[i] = fname[i - 1]
-                lname[i] = lname[i - 1]
-                number[i] = number[i - 1]
-                email[i] = email[i - 1]
-                fname[i - 1] = tmpfnme
-                lname[i - 1] = tmplnme
-                number[i - 1] = tmpcont
-                email[i - 1] = tmpmail
-        print("contacts are sorted now!")
+        print("TODO")
+        # TODO: fix sorting algo
 
     # if option 0 is selected
     elif a == 0:
-        print("DO YOU REALLY WANT TO EXIT")
+        print("Saving your Data ...")
+        outfile = open('data/pickle-main', 'wb')
+        pickle.load(array, outfile)
+        outfile.close()
         print("YOUR DATA SAVED IN CONTACTS WILL BE RESETED")
 
         # conform & exit
