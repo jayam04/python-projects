@@ -19,6 +19,11 @@ infile.close()
 print("update-22.02 ADDS SAVING YOUR DATA WHEN CLOSED BY OPTION 0\n##")
 
 
+# for ease in reading
+fname = 0
+lname = 1
+number = 2
+email = 3
 # making loop to run
 loopvar = 0
 while loopvar < 1:
@@ -44,20 +49,20 @@ while loopvar < 1:
         print("== YOUR CONTACT LIST ==")
         print("")
         i1 = 0
-        arraylen = len(array[0])
+        arraylen = len(array[fname])
         # print all names
         while i1 < arraylen:
-            print(f"{array[0][i1]} {array[1][i1]},  {array[2][i1]}  {array[3][i1]}")
+            print(f"{array[fname][i1]} {array[lname][i1]},  {array[number][i1]}  {array[email][i1]}")
             i1 += 1
         print("=======================")
 
     # option 2 is selected
     elif a == 2:
         # get a new contact
-        array[0].append(input("First Name: "))
-        array[1].append(input("Last Name: "))
-        array[2].append(input("Phone Number: "))
-        array[3].append(input("email ID: "))
+        array[fname].append(input("First Name: "))
+        array[lname].append(input("Last Name: "))
+        array[number].append(input("Phone Number: "))
+        array[email].append(input("email ID: "))
 
 
     # if option 3 is selected
@@ -69,14 +74,10 @@ while loopvar < 1:
     elif a == 0:
         print("Saving your Data ...")
         outfile = open('data/pickle-main', 'wb')
-        pickle.load(array, outfile)
+        pickle.dump(array, outfile)
         outfile.close()
-        print("YOUR DATA SAVED IN CONTACTS WILL BE RESETED")
-
-        # conform & exit
-        inpt = input("y/n? ")
-        if inpt == 'y' or inpt == 'Y':
-            loopvar += 1
+        print("YOUR DATA HAS BEEN SAVED SUCESSFULLY!")
+        loopvar += 1
 
     # if no true option is selected
     else:
