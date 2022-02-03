@@ -6,3 +6,4 @@ REQUIREMENTS
       install pickle using pip
       $ pip install pickle
 3.  you must download whole contacts folder & make sure not to change any file, folder or their name
+#.  make sure to check docs/errors.txt if you ran out in any error

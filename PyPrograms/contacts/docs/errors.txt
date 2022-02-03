@@ -1,0 +1,5 @@
+1.  File "path-to/contacts.py", line 16, in <module>
+    array = pickle.load(infile)
+    Error: Ran out of input
+FIX : run docs/reset-data.py
+      make sure it will reset all contact data stored
