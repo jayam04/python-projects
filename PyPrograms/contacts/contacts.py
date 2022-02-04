@@ -67,8 +67,29 @@ while loopvar < 1:
 
     # if option 3 is selected
     elif a == 3:
-        print("TODO")
-        # TODO: fix sorting algo
+        sortcounter = 1
+        while sortcounter != 0:
+            # reset counter
+            sortcounter = 0
+            arraylen = len(array[fname])
+            for i in range(arraylen - 1):
+                if array[fname][i].upper() > array[fname][i + 1].upper():
+                    for j in range(4):
+                        temp = array[j][i]
+                        array[j][i] = array[j][i + 1]
+                        array[j][i + 1] = temp
+                    # add one for changing values
+                    sortcounter += 1
+                if array[fname][i].upper() == array[fname][i + 1].upper():
+                    # if first name are same, compare last
+                    if array[lname][i].upper() > array[lname][i + 1].upper():
+                        for j in range(4):
+                            temp = array[j][i]
+                            array[j][i] = array[j][i + 1]
+                            array[j][i + 1] = temp
+                        # add one for changing values
+                        sortcounter += 1
+        # if no values are swapped, sortcounter = 0; no next loop
 
     # option 9
     elif a == 9:
