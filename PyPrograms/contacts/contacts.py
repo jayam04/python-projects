@@ -12,7 +12,6 @@ import pickle
 # get array from pickle data
 infile = open('data/pickle-main', 'rb')
 # defining array
-# array[0] for first name, array[1] for last name, and so on..
 array = pickle.load(infile)
 infile.close()
 
