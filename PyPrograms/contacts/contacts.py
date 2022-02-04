@@ -15,24 +15,26 @@ infile = open('data/pickle-main', 'rb')
 array = pickle.load(infile)
 infile.close()
 
-print("update-22.02 ADDS SAVING YOUR DATA WHEN CLOSED BY OPTION 0\n##")
-
+print("update-22.02 ADDS SAVING YOUR DATA WHEN CLOSED BY SAVING USING OPTION 0\n##")
 
 # for ease in reading
 fname = 0
 lname = 1
 number = 2
 email = 3
+# getting some variables
+promptvar = 0 # variable for prompt
+loopvar = 0 # variable for main loop
 # making loop to run
-loopvar = 0
 while loopvar < 1:
-
     # ask user what to do
     print("")  # putting blank line before running new loop
-    print("0.  exit program")
-    print("1.  get all contacts")
-    print("2.  add new contact")
-    print("3.  sort contacts by first name")
+    if promptvar == 0:
+        print("0.  exit program")
+        print("1.  get all contacts")
+        print("2.  add new contact")
+        print("3.  sort contacts by first name")
+        print("9.  stop getting this prompt")
 
     a = input("WHAT WOULD YOU LIKE TO DO?  ")
 
@@ -63,11 +65,21 @@ while loopvar < 1:
         array[number].append(input("Phone Number: "))
         array[email].append(input("email ID: "))
 
-
     # if option 3 is selected
     elif a == 3:
         print("TODO")
         # TODO: fix sorting algo
+
+    # option 9
+    elif a == 9:
+        # change prompt settings
+        if promptvar == 0: 
+            promptvar += 1
+            print("you won't get prompt now!")
+            print("ENTER 9 AGAIN TO START GETTING PROMPT AGAIN!!")
+        else:
+            promptvar -= 1
+
 
     # if option 0 is selected
     elif a == 0:
