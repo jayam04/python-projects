@@ -1,5 +1,20 @@
 1.  File "path-to/contacts.py", line 16, in <module>
     array = pickle.load(infile)
     Error: Ran out of input
-FIX : run docs/reset-data.py
+FIX : run $ python3 docs/reset-data.py
+      make sure to run from same directory where contacts.py is located
       make sure it will reset all contact data stored
+REASON : it may occur sometime when no file if found due to download issue
+         or even if program is closed while pickle is running data file
+
+
+2.  "contacts.py", line 24, in <module>
+    key = pickle.load(pklekey)
+    _pickle.UnpicklingError: invalid load key, '\xef'.
+FIX : run $ python3 docs/reset-key.py
+      make sure to run from same directory where contacts.py is located
+REASON : is's due to corrupted key file, maybe download issue or other
+
+
+3.  invalid or no key
+FIX : same as for error(2)

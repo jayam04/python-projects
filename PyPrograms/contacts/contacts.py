@@ -34,6 +34,7 @@ else:
     print("key not found\nSOME FEATURES ARE DISABLED")
     print("check https://github.com/JymPatel/Python-FirstEdition/tree/Main/PyPrograms/contacts for key, it's free")
 
+print("")
 print("update-22.02 ADDS SAVING YOUR DATA WHEN CLOSED BY SAVING USING OPTION 0\n##")
 
 # for ease in reading
