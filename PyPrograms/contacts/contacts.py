@@ -8,12 +8,31 @@ print("")
 # start of code
 # import library
 import pickle
+import os
 
 # get array from pickle data
 infile = open('data/pickle-main', 'rb')
 # defining array
 array = pickle.load(infile)
 infile.close()
+
+# get key if path exists
+keyacess = False
+path = 'data/pickle-key'
+if os.path.isfile('data/pickle-key'):
+    pklekey = open('data/pickle-key', 'rb')
+    key = pickle.load(pklekey)
+    pklekey.close()
+    if key == 'SKD0DW99SAMXI19#DJI9':
+        keyacess = True
+        print("key found & is correct")
+        print("ALL FEATURES ENABLED")
+    else:
+        print("key is WRONG\nSOME FEATURES ARE DISABLED")
+        print("check https://github.com/JymPatel/Python-FirstEdition/tree/Main/PyPrograms/contacts for key, it's free")
+else:
+    print("key not found\nSOME FEATURES ARE DISABLED")
+    print("check https://github.com/JymPatel/Python-FirstEdition/tree/Main/PyPrograms/contacts for key, it's free")
 
 print("update-22.02 ADDS SAVING YOUR DATA WHEN CLOSED BY SAVING USING OPTION 0\n##")
 
@@ -104,39 +123,46 @@ while loopvar < 1:
 
     # if option 4 is selected
     elif a == 4:
-        sortcounter = 1
-        while sortcounter != 0:
-            # reset counter
-            sortcounter = 0
-            arraylen = len(array[fname])
-            for i in range(arraylen - 1):
-                if array[fname][i].upper() > array[fname][i + 1].upper():
-                    for j in range(4):
-                        temp = array[j][i]
-                        array[j][i] = array[j][i + 1]
-                        array[j][i + 1] = temp
-                    # add one for changing values
-                    sortcounter += 1
-                if array[fname][i].upper() == array[fname][i + 1].upper():
-                    # if first name are same, compare last
-                    if array[lname][i].upper() > array[lname][i + 1].upper():
+        if keyacess == True:
+            sortcounter = 1
+            while sortcounter != 0:
+                # reset counter
+                sortcounter = 0
+                arraylen = len(array[fname])
+                for i in range(arraylen - 1):
+                    if array[fname][i].upper() > array[fname][i + 1].upper():
                         for j in range(4):
                             temp = array[j][i]
                             array[j][i] = array[j][i + 1]
                             array[j][i + 1] = temp
                         # add one for changing values
                         sortcounter += 1
-        # if no values are swapped, sortcounter = 0; no next loop
+                    if array[fname][i].upper() == array[fname][i + 1].upper():
+                        # if first name are same, compare last
+                        if array[lname][i].upper() > array[lname][i + 1].upper():
+                            for j in range(4):
+                                temp = array[j][i]
+                                array[j][i] = array[j][i + 1]
+                                array[j][i + 1] = temp
+                            # add one for changing values
+                            sortcounter += 1
+            # if no values are swapped, sortcounter = 0; no next loop
+            print("CONTACTS ARE NOW SORTED")
+        else:
+            print("NEED CORRECT KEY TO ENABLE THIS FEATURE")
 
     # option 9
     elif a == 9:
-        # change prompt settings
-        if promptvar == 0: 
-            promptvar += 1
-            print("you won't get prompt now!")
-            print("ENTER 9 AGAIN TO START GETTING PROMPT AGAIN!!")
+        if keyacess:
+            # change prompt settings
+            if promptvar == 0: 
+                promptvar += 1
+                print("you won't get prompt now!")
+                print("ENTER 9 AGAIN TO START GETTING PROMPT AGAIN!!")
+            else:
+                promptvar -= 1
         else:
-            promptvar -= 1
+            print("NEED CORRECT KEY TO ENABLE THIS FEATURE")
 
 
     # if option 0 is selected

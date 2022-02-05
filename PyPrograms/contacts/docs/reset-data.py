@@ -4,7 +4,7 @@ array = [['Jym'], ['Patel'], [''], ['jympatel@yahoo.com']]
 
 # save to pickle file
 import pickle
-outfile = open('data/pickle-main', 'wb')
+outfile = open('..data/pickle-main', 'wb')
 pickle.dump(array, outfile)
 outfile.close()
 # sucess
