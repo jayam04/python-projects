@@ -1,7 +1,8 @@
 #### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
 
 ## 2to00000010
-this program can convert a **decimal number to binary number.**
+this program can convert a **decimal number to binary number.**  
+check our [c version]("#todo") in our repo for c
 
 #### Requirenments
 a python interpretor in Windows, terminal will work in Mac & Linux.
