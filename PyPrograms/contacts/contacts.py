@@ -90,10 +90,12 @@ while loopvar < 1:
 
     # option 3
     elif a == 3:
-        print("which contact would you like to delete? (enter first name)")
-        print("enter '\nSTOP' to STOP deleting contact")
-        rmcontact = input("INPUT:  ")
-        if rmcontact != '\nSTOP':
+        print("which contact would you like to delete?")
+        print(f"enter '/nSTOP' to STOP deleting contact")
+        rmcontact = input("INPUT (first name) :  ")
+        if rmcontact == '/nSTOP':
+            print("stopped on user command!")
+        else:
             tempvar = 0
             rmvar = 0
             for i in range(arraylen):
@@ -119,8 +121,6 @@ while loopvar < 1:
             else:
                 print("there are more than one contact with same name")
                 # TODO
-
-
 
     # if option 4 is selected
     elif a == 4:

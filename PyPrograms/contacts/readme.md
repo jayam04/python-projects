@@ -7,7 +7,7 @@ update-22.02.28 adds pickle to store your data in [data](data/) folder. so, you 
 
 #### Requirenments
 a python interpretor in Windows, terminal will work in Mac & Linux.  
-pickle library, more info in [requirements.txt](docs/requirements.txt)
+pickle, os libraries, more info in [requirements.txt](docs/requirements.txt)
 
 #### How to run?
 as a **python3** program  
