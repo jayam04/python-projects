@@ -5,7 +5,7 @@ it's an simple phonebook allowing you to add name, contact number and email.
 it's just for fun there is no use in real life.    
 update-22.02.28 adds pickle to store your data in [data](data/) folder. so, you are in control of your data.  
 
-#### Requirenments
+#### Requirments
 a python interpretor in Windows, terminal will work in Mac & Linux.  
 pickle, os libraries, more info in [requirements.txt](docs/requirements.txt)
 
