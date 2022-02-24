@@ -10,10 +10,10 @@ a python interpretor in Windows, terminal will work in Mac & Linux.
 pickle, os libraries, more info in [requirements.txt](docs/requirements.txt)
 
 #### How to run?
-as a **python3** program  
+Run this program as a **Python 3** program.  
 
 #### Contributers
 created by  
 [**@JymPatel**](https://github.com/JymPatel)  
 edited by  
-[**@bupboi1337**](https://github.com/bupboi1337) pickle idea to store data
+[**@bupboi1337**](https://github.com/bupboi1337) pickle idea to store data and grammer
