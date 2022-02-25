@@ -19,14 +19,14 @@ array = pickle.load(infile)
 infile.close()
 
 # get key if path exists
-keyacess = False
+keyfound = False
 path = 'data/pickle-key'
 if os.path.isfile('data/pickle-key'):
     pklekey = open('data/pickle-key', 'rb')
     key = pickle.load(pklekey)
     pklekey.close()
     if key == 'SKD0DW99SAMXI19#DJI9':
-        keyacess = True
+        keyfound = True
         print("key found & is correct")
         print("ALL FEATURES ENABLED")
     else:
@@ -36,6 +36,7 @@ else:
     print("key not found\nSOME FEATURES ARE DISABLED")
     print("check https://github.com/JymPatel/Python-FirstEdition/tree/Main/PyPrograms/contacts for key, it's free")
 
+# tell how it works
 print("")
 print("update-22.02 ADDS SAVING YOUR DATA WHEN CLOSED BY SAVING USING OPTION 0\n##")
 
@@ -47,6 +48,8 @@ email = 3
 # getting some variables
 promptvar = 0 # variable for prompt
 loopvar = 0 # variable for main loop
+
+
 # making loop to run
 while loopvar < 1:
     # ask user what to do
@@ -67,56 +70,28 @@ while loopvar < 1:
     except ValueError:
         print("!! PLEASE ENTER AN INTEGRAL VALUE")
     # get length of array
-    print(array)
     arraylen = len(array[fname])
 
     # if option 1 is selected
     if a == 1:
         fuN.printallcontacts(arraylen, array)
-
     # option 2 is selected
     elif a == 2:
         array = fuN.addnewcontact(arraylen, array)
-        arraylen += 1
-
     # option 3
     elif a == 3:
         array = fuN.deleteOldContact(arraylen, array)
-        arraylen -= 1
 
     # if option 4 is selected
     elif a == 4:
-        if keyacess == True:
-            sortcounter = 1
-            while sortcounter != 0:
-                # reset counter
-                sortcounter = 0
-                arraylen = len(array[fname])
-                for i in range(arraylen - 1):
-                    if array[fname][i].upper() > array[fname][i + 1].upper():
-                        for j in range(4):
-                            temp = array[j][i]
-                            array[j][i] = array[j][i + 1]
-                            array[j][i + 1] = temp
-                        # add one for changing values
-                        sortcounter += 1
-                    if array[fname][i].upper() == array[fname][i + 1].upper():
-                        # if first name are same, compare last
-                        if array[lname][i].upper() > array[lname][i + 1].upper():
-                            for j in range(4):
-                                temp = array[j][i]
-                                array[j][i] = array[j][i + 1]
-                                array[j][i + 1] = temp
-                            # add one for changing values
-                            sortcounter += 1
-            # if no values are swapped, sortcounter = 0; no next loop
-            print("CONTACTS ARE NOW SORTED")
+        if keyfound == True:
+            array = fuN.sorTarray(arraylen, array)
         else:
             print("NEED CORRECT KEY TO ENABLE THIS FEATURE")
 
     # option 9
     elif a == 9:
-        if keyacess:
+        if keyfound:
             # change prompt settings
             if promptvar == 0: 
                 promptvar += 1
@@ -130,6 +105,7 @@ while loopvar < 1:
 
     # if option 0 is selected
     elif a == 0:
+        # saving data to pickle file
         print("Saving your Data ...")
         outfile = open('data/pickle-main', 'wb')
         pickle.dump(array, outfile)

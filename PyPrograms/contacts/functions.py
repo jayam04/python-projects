@@ -62,3 +62,33 @@ def deleteOldContact(arraylen, array):
             # TODO
         # return new array
         return array
+
+
+
+def sorTarray(arraylen, array):
+    sortcounter = 1
+    while sortcounter != 0:
+        # reset counter
+        sortcounter = 0
+        arraylen = len(array[fname])
+        for i in range(arraylen - 1):
+            if array[fname][i].upper() > array[fname][i + 1].upper():
+                for j in range(4):
+                    temp = array[j][i]
+                    array[j][i] = array[j][i + 1]
+                    array[j][i + 1] = temp
+                # add one for changing values
+                    sortcounter += 1
+            if array[fname][i].upper() == array[fname][i + 1].upper():
+                # if first name are same, compare last
+                if array[lname][i].upper() > array[lname][i + 1].upper():
+                    for j in range(4):
+                        temp = array[j][i]
+                        array[j][i] = array[j][i + 1]
+                        array[j][i + 1] = temp
+                    # add one for changing values
+                    sortcounter += 1
+    # if no values are swapped, sortcounter = 0; no next loop
+    print("CONTACTS ARE NOW SORTED")
+    return array
+
