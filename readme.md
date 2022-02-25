@@ -4,6 +4,7 @@ a bunch of python programs and stuff
 ## Super Important Notice
 EVERYTHING IN THIS REPOSITORY IS LICENSED UNDER THE [**GNU GENERAL PUBLIC LICENSE V3**](LICENSE)  
 also, refer to the [Contributing Rules](docs/CONTRIBUTING.md) before Contributing.  
+If you feel any program as vulnerability or find any security break you can inform us. more in [Security Policy](docs/SECURITY.md)
 
 ## Latest Changes
 Remade Equations from scratch  
