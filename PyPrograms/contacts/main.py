@@ -9,6 +9,7 @@ print("")
 # import library
 import pickle
 import os
+import sys
 # imports from our py files
 import functions as fuN
 import encrypt10n as encrypt
@@ -23,6 +24,13 @@ if encryptionKey.upper() == 'NOENCRYPTION' or encryptionKey == '' or encryptionK
 else:
     encryptionStatus = True
 array = encrypt.getArray(encryptionKey)
+
+if array == 'ERRORx379':
+    print("PROGRAM EXITED WITH ERROR CODE 379!")
+    print("379 :(\n")
+    print("ERROR OCCURED WHILE DECRYPTING DATA DUE TO WRONG KEY")
+    print("YOUR DATA IS STILL SAFE JUST ENTER CORRECT KEY ON NEXT RUN")
+    sys.exit()
 
 # get key if path exists
 keyfound = False
