@@ -53,6 +53,7 @@ else:
 # tell how propgram works
 print("")
 print("update-22.02 ADDS SAVING YOUR DATA WHEN CLOSED BY SAVING USING OPTION 0\n##")
+print("YOU ARE RUNNING 22.03β")
 
 # for ease in reading
 fname = 0
