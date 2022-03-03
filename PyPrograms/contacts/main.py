@@ -11,12 +11,18 @@ import pickle
 import os
 # imports from our py files
 import functions as fuN
+import encrypt10n as encrypt
 
-# get array from pickle data
-infile = open('data/pickle-main', 'rb')
-# defining array
-array = pickle.load(infile)
-infile.close()
+# check encryption status and get array
+encryptionStatus = False
+encryptionKey = input("ENTER YOUR ENCRYTION KEY ('noKEY' is default KEY): ")
+if encryptionKey.upper() == 'NOENCRYPTION' or encryptionKey == '' or encryptionKey.upper() == 'NOKEY':
+    print("your data is not encrypted")
+    print("you can turn it ON while saving program")
+    encryptionKey = "noENCRYPTION"
+else:
+    encryptionStatus = True
+array = encrypt.getArray(encryptionKey)
 
 # get key if path exists
 keyfound = False
@@ -36,7 +42,7 @@ else:
     print("key not found\nSOME FEATURES ARE DISABLED")
     print("check https://github.com/JymPatel/Python-FirstEdition/tree/Main/PyPrograms/contacts for key, it's free")
 
-# tell how it works
+# tell how propgram works
 print("")
 print("update-22.02 ADDS SAVING YOUR DATA WHEN CLOSED BY SAVING USING OPTION 0\n##")
 
@@ -61,7 +67,6 @@ while loopvar < 1:
         print("3.  remove any contact")
         print("4.  sort contacts by first name")
         print("9.  stop getting this prompt")
-
     a = input("WHAT WOULD YOU LIKE TO DO?  ")
 
     # check for integer & calculate length of array
@@ -81,7 +86,6 @@ while loopvar < 1:
     # option 3
     elif a == 3:
         array = fuN.deleteOldContact(arraylen, array)
-
     # if option 4 is selected
     elif a == 4:
         if keyfound == True:
@@ -105,11 +109,19 @@ while loopvar < 1:
 
     # if option 0 is selected
     elif a == 0:
+        if encryptionStatus == False:
+            print("would you like to encrypt your data")
+            stra = input("y/n?  ")
+            try:
+                if stra[0].upper() == 'Y':
+                    encryptionKey = input("create your encryption key ...")
+                    print("\n YOUR ENCRYPTION KEY IS", encryptionKey)
+                    print("\n IF YOU FORGET KEY, FORGET YOUR DATA")
+            except IndexError:
+                encryptionKey = 'noENCRYPTION'
         # saving data to pickle file
         print("Saving your Data ...")
-        outfile = open('data/pickle-main', 'wb')
-        pickle.dump(array, outfile)
-        outfile.close()
+        encrypt.saveData(array, encryptionKey)
         print("YOUR DATA HAS BEEN SAVED SUCESSFULLY!")
         loopvar += 1
 
