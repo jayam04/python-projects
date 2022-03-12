@@ -3,7 +3,7 @@
 
 # this code uses GPL V3 LICENSE
 print("this code uses GPL V3 LICENSE")
-print("")
+print()
 
 # start of code
 # import library
@@ -16,15 +16,15 @@ import encrypt10n as encrypt
 
 # check encryption status and get array
 encryptionStatus = False
-encryptionKey = input("ENTER YOUR ENCRYTION KEY ('noKEY' is default KEY): ")
-if encryptionKey.upper() == 'NOENCRYPTION' or encryptionKey == '' or encryptionKey.upper() == 'NOKEY':
+encryptionKey = input("ENCRYPTION KEY ('noKEY' or is default KEY): ")
+if encryptionKey.upper() == 'NOENCRYPTION' or encryptionKey.upper() == '' or encryptionKey.upper() == 'NOKEY':
     print("your data is not encrypted")
-    print("you can turn it ON while saving program")
+    print("you can encrypt while saving program")
     encryptionKey = "noENCRYPTION"
 else:
     encryptionStatus = True
 array = encrypt.getArray(encryptionKey)
-
+# sometimes wrong key doesn't make sense to decrypt like chr(9589395959359)
 if array == 'ERRORx379':
     print("PROGRAM EXITED WITH ERROR CODE 379!")
     print("379 :(\n")
@@ -32,7 +32,7 @@ if array == 'ERRORx379':
     print("YOUR DATA IS STILL SAFE JUST ENTER CORRECT KEY ON NEXT RUN")
     sys.exit()
 
-# get key if path exists
+# get premium ACCESS key if path exists
 keyfound = False
 path = 'data/pickle-key'
 if os.path.isfile('data/pickle-key'):
@@ -41,19 +41,16 @@ if os.path.isfile('data/pickle-key'):
     pklekey.close()
     if key == 'SKD0DW99SAMXI19#DJI9':
         keyfound = True
+        print()
         print("key found & is correct")
-        print("ALL FEATURES ENABLED")
+        print("YOU GOT PREMIUM ACCESS")
     else:
-        print("key is WRONG\nSOME FEATURES ARE DISABLED")
-        print("check https://github.com/JymPatel/Python-FirstEdition/tree/Main/PyPrograms/contacts for key, it's free")
+        print("key is WRONG\nYOU ARE RUNNING WITH STANDARD ACCESS")
+        print("check https://github.com/JymPatel/Python-FirstEdition/tree/Main/PyPrograms/contacts for PREMIUM ACCESS, it's free")
 else:
-    print("key not found\nSOME FEATURES ARE DISABLED")
-    print("check https://github.com/JymPatel/Python-FirstEdition/tree/Main/PyPrograms/contacts for key, it's free")
+    print("key not found\nYOU ARE RUNNING WITH STANDARD ACCESS")
+    print("check https://github.com/JymPatel/Python-FirstEdition/tree/Main/PyPrograms/contacts for PREMIUM ACCESS, it's free")
 
-# tell how propgram works
-print("")
-print("update-22.02 ADDS SAVING YOUR DATA WHEN CLOSED BY SAVING USING OPTION 0\n##")
-print("YOU ARE RUNNING 22.03β")
 
 # for ease in reading
 fname = 0
@@ -61,21 +58,22 @@ lname = 1
 number = 2
 email = 3
 # getting some variables
-promptvar = 0 # variable for prompt
-loopvar = 0 # variable for main loop
+promptvar = 1
+loopvar = 0
 
 
 # making loop to run
 while loopvar < 1:
+
     # ask user what to do
-    print("")  # putting blank line before running new loop
-    if promptvar == 0:
+    print("")
+    if promptvar == 1: # 0 is for off 
         print("0.  exit program")
         print("1.  get all contacts")
         print("2.  add new contact")
         print("3.  remove any contact")
         print("4.  sort contacts by first name")
-        print("9.  stop getting this prompt")
+        print("9.  toggle on/off this prompt")
     a = input("WHAT WOULD YOU LIKE TO DO?  ")
 
     # check for integer & calculate length of array
@@ -83,42 +81,40 @@ while loopvar < 1:
         a = int(a)
     except ValueError:
         print("!! PLEASE ENTER AN INTEGRAL VALUE")
-    # get length of array
     arraylen = len(array[fname])
 
-    # if option 1 is selected
+    # functions
     if a == 1:
         fuN.printallcontacts(arraylen, array)
-    # option 2 is selected
+    
     elif a == 2:
         array = fuN.addnewcontact(arraylen, array)
-    # option 3
+    
     elif a == 3:
         array = fuN.deleteOldContact(arraylen, array)
-    # if option 4 is selected
+    
     elif a == 4:
         if keyfound == True:
             array = fuN.sorTarray(arraylen, array)
         else:
-            print("NEED CORRECT KEY TO ENABLE THIS FEATURE")
+            print("NEED PREMIUM ACCESS TO ENABLE THIS FEATURE")
 
-    # option 9
+    # change prompt settings
     elif a == 9:
         if keyfound:
-            # change prompt settings
             if promptvar == 0: 
                 promptvar += 1
                 print("you won't get prompt now!")
-                print("ENTER 9 AGAIN TO START GETTING PROMPT AGAIN!!")
             else:
                 promptvar -= 1
         else:
-            print("NEED CORRECT KEY TO ENABLE THIS FEATURE")
+            print("NEED PREMIUM ACCESS TO ENABLE THIS FEATURE")
 
 
-    # if option 0 is selected
+    # ending program
     elif a == 0:
         if encryptionStatus == False:
+            # ask to encrypt data
             print("would you like to encrypt your data")
             stra = input("y/n?  ")
             try:
