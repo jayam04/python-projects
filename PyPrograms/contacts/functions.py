@@ -8,11 +8,11 @@ email = 3
 def printallcontacts(arraylen, array):
     print("")
     print("== YOUR CONTACT LIST ==")
-    print("")
+    print("|")
     i1 = 0
     # print all names
     while i1 < arraylen:
-        print(f"{array[fname][i1]} {array[lname][i1]},  {array[number][i1]}  {array[email][i1]}")
+        print(f"|  {array[fname][i1]} {array[lname][i1]},  {array[number][i1]}  {array[email][i1]}")
         i1 += 1
     print("=======================")
 
@@ -29,9 +29,7 @@ def addnewcontact(arraylen, array):
 
 
 def deleteOldContact(arraylen, array):
-    print("which contact would you like to delete?")
-    print(f"enter '/nSTOP' to STOP deleting contact")
-    rmcontact = input("INPUT (first name) :  ")
+    rmcontact = input("input FIRST NAME of contact ('/nSTOP' to stop):  ")
     if rmcontact == '/nSTOP':
         print("stopped on user command!")
     else:

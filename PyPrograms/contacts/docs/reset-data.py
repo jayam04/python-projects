@@ -9,3 +9,4 @@ pickle.dump(array, outfile)
 outfile.close()
 # sucess
 print("RESET HAS BEEN SUCESSFUL!")
+print()
