@@ -7,10 +7,12 @@ also, refer to the [Contributing Rules](docs/CONTRIBUTING.md) before Contributin
 If you feel any program as vulnerability or find any security break you can inform us. more in [Security Policy](docs/SECURITY.md)  
 
 ## Latest Changes
-Remade Equations from scratch  
-Changed some stuff in the program Contacts  
-Changed some text in the Readme and the Contributing guidelines  
-Removed some stuff in Sysinfo
+Changed comments in the following programs:  
+Box  
+RPI detector  
+Sysinfo  
+Box (TKinter)  
+Hello World (TKinter)  
 
 ## Program List
 [**box (TKinter)**](PyPrograms/tkinter/box) A program that makes a window with TKinter  
