@@ -1,7 +1,6 @@
-# code by @JymPatel
-# edited by @bupboi1337, (editors can put their name here && thanks for contribution :)
+# code by @JymPatel, @bupboi1337
+# which uses GPL V3 LICENSE
 
-# this code uses GPL V3 LICENSE
 print("this code uses GPL V3 LICENSE")
 print("")
 
@@ -48,4 +47,4 @@ else:
 
 # end of code
 print("")
-print("get this code at https://github.com/JymPatel/Python-FirstEdition")
+print("get this code at https://github.com/JymPatel/python")

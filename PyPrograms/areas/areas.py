@@ -1,6 +1,6 @@
+# code by @JymPatel
+# which uses GPL V3 LICENSE
 
-
-# it uses GPL V3 LICENSE
 # what we are going to do
 print("We can find areas of different shapes from below")
 
