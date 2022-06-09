@@ -11,8 +11,4 @@ a python interpretor in Windows, terminal would work in Mac & Linux.
 run as **python3** program
 
 #### Contributers
-created by  
-[**@JymPatel**](https://github.com/JymPatel)  
-edited by  
-[**@bupboi1337**](https://github.com/bupboi1337)
-
+by [**@JymPatel**](https://github.com/JymPatel), [**@bupboi1337**](https://github.com/bupboi1337)  

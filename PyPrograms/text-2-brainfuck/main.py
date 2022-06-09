@@ -1,3 +1,6 @@
+# code by @JymPatel
+# which uses GPL V3 LICENSE
+
 def get_input(s):
     s = 'input.' + s
     infile = open(s, 'r')

@@ -1,6 +1,6 @@
 #### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
 
-## 2to00000010
+## decimal to binary
 this program can convert a **decimal number to binary number.**  
 check our [c version]("#todo") in our repo for c
 
@@ -11,7 +11,4 @@ a python interpretor in Windows, terminal will work in Mac & Linux.
 as a **python3** program
 
 #### Contributers
-created by  
-[**@JymPatel**](https://github.com/JymPatel)  
-edited by  
-editors can put their name below  
+by [**@JymPatel**](https://github.com/JymPatel)  
