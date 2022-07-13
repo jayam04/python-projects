@@ -5,6 +5,7 @@
 #
 
 import os
+a = "127.0.0.1"  # TODO: Change this to another server on your local network.
 print("Raspberry Pi Detector")
 print("This uses the GPL V3 Licence. Read the file LICENCE to see it.")
 ip = "raspberrypi.local" # Name of the default Raspberry Pi LAN Hostname
