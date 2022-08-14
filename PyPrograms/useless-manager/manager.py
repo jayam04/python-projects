@@ -17,6 +17,7 @@ data_folder = "data/"
 
 
 class Transaction:
+    # object that stores details of one transaction
     def __init__(self, amount, user_id, description=None):
         # add time and description
         self.time = datetime.now()
@@ -38,6 +39,7 @@ class Transaction:
 
 
 class Person:
+    # a person has name, id, transactions
     def __init__(self, first, last, middle, entered_ID, balance=0):
         self.balance = balance
         self.transactions = [] # stores transactions of class Transaction
@@ -55,12 +57,12 @@ class Person:
     # check if ID is unique
     @property
     def ID(self):
-        return self.id
+        return self._id
     
     @ID.setter
-    def ID(self, ID):
-        if ID not in [user.id for user in users]:
-            self.id = ID
+    def ID(self, id):
+        if id not in [user._id for user in users]:
+            self._id = id
         else:
             raise ValueError("user ID already taken!")
 
@@ -89,8 +91,7 @@ def main():
             user.print_data()
 
 
-
-def get_task(): # returns task as string from command line input
+def get_task(): # returns task, takes input from command line (arg while running program)
     try: 
         task =  sys.argv[1]
 
@@ -111,7 +112,8 @@ def get_task(): # returns task as string from command line input
         sys.exit(colored(generated_error, "red"))
 
 
-def create_user(): # returns user of type Person created by taking input
+
+def create_user(): # returns user of type Person created by taking input from user
     first = input("First Name: ")
     middle = input("Middle Name: ")
     last = input("Last Name: ")
@@ -132,11 +134,12 @@ def create_user(): # returns user of type Person created by taking input
     return user
 
 
-def create_transaction():
+def create_transaction(): # creates a new transaction
     ... # TODO create transaction function
 
 
-def load_data():
+
+def load_data(): # loads data while starting program
     global users 
     global transactions
     try:
@@ -152,12 +155,12 @@ def load_data():
         if input("would you like to RESET data? y/n: ").lower() in ["yes", "y", "yeah"]:
             reset_datafile(data_folder + "transactions.pickle")
 
-def reset_datafile(location):
+def reset_datafile(location): # reset storage file to default (empty)
     file = open(location, "wb")
     pickle.dump([], file)
     file.close()
 
-def save_data():
+def save_data(): # saves new transactions, users, more while exiting program
     with open(f"{data_folder}users.pickle", "wb") as users_file:
         pickle.dump(users, users_file)
     with open(f"{data_folder}transactions.pickle", "wb") as transactions_file:
@@ -165,20 +168,21 @@ def save_data():
 
 
 
-def get_help(): # opens help doc
+def get_help(): # opens help doc and prints it
     print(colored("\nopening docs/help ...", "yellow"))
     print(open("./docs/help.txt", 'r').read())
 
-def current_version(): # returns string of version
+def current_version(): # returns string of current version
     major = 1
     minor = 1
     return f"{major}.{minor}"
+
 
 
 if __name__ == __name__:
     load_data()
     main()
     save_data()
-    # smooth end
+    # end
     print(colored("\nthis code is licensed under GNU General Public License v3", "blue"))
     print(colored("get this code at https://github.com/JymPatel/useless-manager", "blue"))
