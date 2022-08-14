@@ -178,8 +178,7 @@ def current_version(): # returns string of current version
     return f"{major}.{minor}"
 
 
-
-if __name__ == __name__:
+if __name__ == '__main__':
     load_data()
     main()
     save_data()
