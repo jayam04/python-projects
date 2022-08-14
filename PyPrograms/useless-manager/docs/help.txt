@@ -18,7 +18,7 @@
 ║ version               check current version of manager.py     ║
 ║ -v or --version                                               ║
 ║                                                               ║
-║ newaccount            create new account for cliet            ║
+║ newaccount            create new account for client           ║
 ║                                                               ║
 ║ transact              create new transaction (beta)           ║
 ║                                                               ║

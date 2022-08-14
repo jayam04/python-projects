@@ -40,7 +40,7 @@ class Transaction:
 class Person:
     def __init__(self, first, last, middle, entered_ID, balance=0):
         self.balance = balance
-        self.transactions = []
+        self.transactions = [] # stores transactions of class Transaction
         # set Person name
         if middle:
             self.name = f"{first} {middle} {{last}}"
@@ -84,6 +84,7 @@ def main():
         new_transaction = create_transaction()
 
     elif task == "listusers":
+        print('users with us ...')
         for user in users:
             user.print_data()
 

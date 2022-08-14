@@ -1,0 +1,3 @@
+pip libraries - termcolor, pickle, sys, datetime
+# use
+pip3 install termcolor pickle sys datetime
