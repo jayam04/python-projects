@@ -9,5 +9,5 @@ It does nothing...
 
 ### Credits  
 [**@bupboi1337**](https://github.com/bupboi1337) - creator  
-Editors can put thier name below here:  
+Editors can put their name below here:  
 
