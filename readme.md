@@ -7,8 +7,7 @@ also, refer to the [Contributing Rules](docs/CONTRIBUTING.md) before Contributin
 If you find a vulnerability or find any security breaks in any program on this repo, please inform us ASAP. more in [Security Policy](docs/SECURITY.md)  
 
 ## Latest Changes
-fixed rpi detector and changed comments  
-RPI detector  
+fixed rpi detector and changed comments along with many typo fixes  
 
 ## Program List
 [**box (TKinter)**](PyPrograms/tkinter/box) A program that makes a window with TKinter  
