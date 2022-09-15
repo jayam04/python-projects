@@ -83,7 +83,7 @@ def decryptARRAY(array, KEY):
                         tmpVAR04 = tmpVAR3 - (i + 5 - k) - 11 - getKEYchar(i + k, KEY)
                     else:
                         tmpVAR04 = tmpVAR3 - (i * j * k) * 54 + 32 * getKEYchar(i * k / (j + 1), KEY)
-                    # PUT VALUE OF TMPVAR04 IN DECRYPTED BUT CHR() WONT WORK ON BIG VALUES SO MAKE SURE
+                    # PUT VALUE OF TMPVAR04 IN DECRYPTED BUT CHR() WON'T WORK ON BIG VALUES SO MAKE SURE
                     try:
                         decryptedARRAY[i][j][k] = chr(tmpVAR04)
                     except ValueError:
@@ -97,7 +97,7 @@ def decryptARRAY(array, KEY):
                     else:
                         tmpVAR04 = (tmpVAR3 - getKEYchar(i, KEY) + (j + k) ** 2 - i * getKEYchar(tmpVAR3, KEY)) ** 0.5
                     decryptedARRAY[i][j][k] = int(tmpVAR04)
-    # CONVET DECRYPTED ARRAY TO STRINGS WHERE IT NEEDS AND RETURN NEW ARRAY
+    # CONVERT DECRYPTED ARRAY TO STRINGS WHERE IT NEEDS AND RETURN NEW ARRAY
     finalARRAY = [[] for i in range(4)]
     for i in range(4):
         for j in range(totalContacts):
