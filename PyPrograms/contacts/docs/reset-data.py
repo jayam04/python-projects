@@ -7,6 +7,6 @@ import pickle
 outfile = open('data/pickle-main', 'wb')
 pickle.dump(array, outfile)
 outfile.close()
-# sucess
-print("RESET HAS BEEN SUCESSFUL!")
+# success
+print("RESET HAS BEEN SUCCESSFUL!")
 print()
