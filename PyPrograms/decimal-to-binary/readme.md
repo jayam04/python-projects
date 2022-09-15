@@ -2,13 +2,13 @@
 
 ## decimal to binary
 this program can convert a **decimal number to binary number.**  
-check our [c version]("#todo") in our repo for c
+check our [c version]("#todo") in our repo for c  
 
 #### Requirenments
-a python interpretor in Windows, terminal will work in Mac & Linux.
+a python interpreter in Windows, terminal will work in Mac & Linux.  
 
 #### How to run?
-as a **python3** program
+as a **python3** program  
 
-#### Contributers
+#### Contributors
 by [**@JymPatel**](https://github.com/JymPatel)  
