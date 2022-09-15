@@ -28,7 +28,7 @@ array = encrypt.getArray(encryptionKey)
 if array == 'ERRORx379':
     print("PROGRAM EXITED WITH ERROR CODE 379!")
     print("379 :(\n")
-    print("ERROR OCCURED WHILE DECRYPTING DATA DUE TO WRONG KEY")
+    print("ERROR OCCURRED WHILE DECRYPTING DATA DUE TO WRONG KEY")
     print("YOUR DATA IS STILL SAFE JUST ENTER CORRECT KEY ON NEXT RUN")
     sys.exit()
 
@@ -127,7 +127,7 @@ while loopvar < 1:
         # saving data to pickle file
         print("Saving your Data ...")
         encrypt.saveData(array, encryptionKey)
-        print("YOUR DATA HAS BEEN SAVED SUCESSFULLY!")
+        print("YOUR DATA HAS BEEN SAVED SUCCESSFULLY!")
         loopvar += 1
 
     # if no true option is selected
