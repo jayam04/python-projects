@@ -41,7 +41,7 @@ def deleteOldContact(arraylen, array):
                 rmvar = i
         # if no cotacts found
         if tempvar == 0:
-            print("no cantact matches first name provided")
+            print("no contact matches first name provided")
         # if only one contact is found
         elif tempvar == 1:
             print("DO YOU WANT TO DELETE CONTACT")

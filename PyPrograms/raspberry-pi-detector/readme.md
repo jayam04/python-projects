@@ -3,4 +3,4 @@
 ### Raspberry Pi Detector
 Detect if there is a raspberry pi on your network.  
 By [**@bupboi1337**](https://github.com/bupboi1337)  
-Editors can put thier name here:  
+Editors can put their name here if they want:  

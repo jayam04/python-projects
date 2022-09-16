@@ -1,4 +1,4 @@
-# System Informaiton
+# System Information
 # By @bupboi1337
 # This uses the GPL V3 licence btw
 

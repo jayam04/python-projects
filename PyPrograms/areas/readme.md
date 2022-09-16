@@ -4,12 +4,12 @@
 it can find area of **square**  
 
 #### Requirenments
-a python interpretor.  
+a python interpreter.  
 
 #### How to run?
 Run it as a Python 3 Program in your interpreter of choice.  
 
-#### Contributers
+#### Contributors
 created by  
 [**@JymPatel**](https://github.com/JymPatel)  
 edited by  

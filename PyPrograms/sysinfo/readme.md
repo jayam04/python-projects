@@ -1,10 +1,10 @@
 #### THIS PROGRAM USES [GPL V3 LICENSE](../../LICENSE)
 
-## System Informaiton
+## System Information
 By [**@bupboi1337**](https://github.com/bupboi1337)  
 
 ### What does it do?
-It tells you informaiton about your system including but not limited to:  
+It tells you information about your system including but not limited to:  
 your processor  
 your OS  
 And the version of your OS.  
