@@ -1,5 +1,5 @@
-# Python-FirstEdition
-a bunch of python programs and stuff  
+# Python Projects
+a bunch of fun python programs  
 
 ## Super Important Notice
 EVERYTHING IN THIS REPOSITORY IS LICENSED UNDER THE [**GNU GENERAL PUBLIC LICENSE V3**](LICENSE)  
